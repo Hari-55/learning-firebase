@@ -1,18 +1,16 @@
 # learning-firebase
 
-Hubungkan Aplikasi ke firebase terlebih dahulu
+Create your project with the name Learning Firebase or else and choose to connect Android
 https://console.firebase.google.com/u/0/
 
-kemudian dapatkan google-service.json
+And Then get google-service.json move to your project folder in = project -> app
 
-letakan pada root : project -> app
-
-Buka build gradle module tambahkan Storage base dan realtime base, dengan path yang dipunya
+For Storage and real-time, active that service in your project and get the base URL. Copy to Gradle module
 
 # Auth
-Aktifkan Sing-in Method Email/Password
+For Auth you can active service just "Sing-in Method Email/Password"
 
 # Firestore
-Untuk menggunakan firestore mohon isi data dulu untuk spinner class yang dipilih dengan format
-
-collection : class -> document: idClass(1..n) -> field : {_class, day, name}
+For firestore please add some data for feature register class.
+Format :
+collection "class" -> document: "idClass"(1..n) -> field : {_class : "name class", day : "monday or else", name : "name mentor"}
